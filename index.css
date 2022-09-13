@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 }
 header{
-    background-color: rgb(104, 143, 145);
+    background-color: rgb(200, 222, 223);
 }
 
 .logoEmpresa{
@@ -33,24 +33,33 @@ margin-left: 20px;
 .navegacion{
     font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  list-style: none;
   text-decoration: none;
+  color: rgb(29, 29, 29);
+  
 }
 /*  portada */
 
 
-
+.prueba{
+    
+   background-image: url(https://www.elcarrocolombiano.com/wp-content/uploads/2017/08/20170821-RENAULT-12-COLOMBIA-HISTORIA-01.jpg);
+   background-position: center;
+  background-size: cover;
+  
+}
 
 .conteinersection{
     width: 100%;
     height: 100%;
-   background-image: url(https://www.elcarrocolombiano.com/wp-content/uploads/2017/08/20170821-RENAULT-12-COLOMBIA-HISTORIA-01.jpg);
-   background-position: center;
-  background-size: cover;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(5.400000000000006px);
   
-   
 }
 .bienvenidos{
     width: 80%;
@@ -63,28 +72,88 @@ margin-left: 20px;
     text-shadow: 0 0 10px rgb(65, 65, 141);
    
 }
-button{
+.boton{
     margin-top: 20px;
     width: 220px;
     height: 30px;
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    border-style: solid;
-    border-color: rgb(178, 197, 212);
     margin-left: 40px;
-    background-color: transparent;
+    background-color: aliceblue;
     text-shadow: 0 0 2px rgb(36, 17, 17);
-    color: rgb(214, 195, 195);
+    color: rgb(26, 21, 21);
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    text-decoration: none;
     
    
 }
-.hol{
-    text-shadow: 2px 2px 5px;
-    font-size: 50px;
+.conteinerNosotros{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
+.nosotros{
+width: 100%;
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #3d3535;
+margin-top: 40px;
+
+}
+.nosotros2{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #3d3535;
+margin: 40px;
+
+}
+
+.conteinerCarrusel{
+display: flex;
+justify-content: center;
+background-image: url(https://static.vecteezy.com/system/resources/previews/008/680/350/non_2x/auto-tire-tread-seamless-elements-car-tire-patterns-wheel-tyre-tread-track-tyre-print-set-of-illustrations-isolated-on-white-background-vector.jpg);
+padding: 30px;
+
+}
+#fotos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+margin: 30px;
+}
+
+.fotos2{
+    font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #3d3535;
+
+
+}
 
  /* nombre y parrafo de ranking */
 .nomCat{
@@ -101,35 +170,29 @@ button{
     color: #3d3535;
 }
 
-.parrafoRanking{
-    display: flex;
-    justify-content: center;
-    
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    padding-bottom: 40px;
-}
+
 
 /* ranking */
 
 .numero{
     display: flex;
     justify-content: center;
-    font-size: 150px;
+    font-size: 100px;
     color: #4d4949;
     box-shadow: 8px 8px 31px 15px rgba(221, 207, 207, 0.75);
-
+    
 }
 
 .nombreDeAuto{
         font-family: 'Poppins', sans-serif ;
          font-style: normal;
          font-weight: 300;
-         font-size: 50px;
+         font-size: 35px;
          color: #2c2121;
          display: flex;
          justify-content: center;
-         padding-top: 30px;
+         align-items: center;
+        
 
      }
 
@@ -141,37 +204,67 @@ align-items: center;
 
 }
 .chevi{
-    width: 80%;
-    padding-bottom: 30px;
+    width: 70%;
 }
 
 .renault12{
    width: 70%;
-   background: transparent;
+   
 
 
 }
 
 .torino{
     width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
+   
    
     
 }
 
 .fiat600{
 width: 50%;
-padding-top: 10px;
+
 }
 .falcon{
     width: 70%;
-    padding-top: 30px;
+    margin: 30px;
+    
 }
 
+.parrafoRanking{
+    background-color: #4d4949;
+    color: #f3f5de;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
 
+}
 
+#contactos{
+    width: 100%;
+  background-image: url(https://us.123rf.com/450wm/betelgejze/betelgejze1607/betelgejze160700032/60141124-monocromo-patr%C3%B3n-sin-fisuras-con-los-coches-de-contorno-vista-superior-de-iconos-del-coche-aislado-d.jpg?ver=6);
+display: flex;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 
+}
+.conteinerContactos{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.conteinericonos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+ }
 
