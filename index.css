@@ -297,10 +297,23 @@ flex-wrap: wrap;
         background-color: #bdbdbb;
         transform: translateX(200%);
     transition: all 0.6s ease-out;
+   
     }
+
     .nav i {
         display: block;
     }
+    #contactos{
+        justify-content: space-between;
+
+    }
+    .conteinericonos{
+        flex-direction: row;
+        margin: 30px;
+        align-items: center;
+    }
+    
+
  }
  #menu:checked ~ .navList{
 transform: translateX(0%);
