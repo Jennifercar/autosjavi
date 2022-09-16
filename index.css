@@ -305,12 +305,12 @@ flex-wrap: wrap;
     }
     #contactos{
         justify-content: space-between;
+       padding: 20px;
 
     }
     .conteinericonos{
-        flex-direction: row;
-        margin: 30px;
-        align-items: center;
+       flex-direction: column; 
+        
     }
     
 
