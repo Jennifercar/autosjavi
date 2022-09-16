@@ -264,6 +264,13 @@ flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
 }
+.infoDeFooter1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.infoDeFooter2{
+    font-family: 'Poppins', sans-serif;
+}
 
 .conteinericonos{
     display: flex;
@@ -274,6 +281,12 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     
  }
+#titulodeiconos{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+
 
 @media (max-width: 860px){
     .conteinersection {
@@ -304,13 +317,24 @@ flex-wrap: wrap;
         display: block;
     }
     #contactos{
-        justify-content: space-between;
        padding: 20px;
+       flex-direction: column;
 
     }
-    .conteinericonos{
-       flex-direction: column; 
-        
+    .infoDeFooter1{
+        display: flex;
+        justify-content: center;
+    }
+    .infoDeFooter2{
+        display: flex;
+        justify-content: center;
+    }
+   
+    #titulodeiconos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
     }
     
 
