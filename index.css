@@ -26,6 +26,7 @@
     display: flex;
     text-decoration: none;
     list-style: none;
+    
 }
 
 .nav i {
@@ -44,6 +45,11 @@
     font-family: 'Poppins', sans-serif;
     gap: 60px;
     padding-right: 30px;
+}
+.nav a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
 }
 
 /*  portada */
@@ -78,6 +84,7 @@
     margin-left: 40px;
     margin-top: 40px;
     text-shadow: 0 0 10px rgb(106, 106, 207);
+    text-align: center;
 }
 
 .boton {
@@ -104,6 +111,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .nosotros {
@@ -231,6 +239,7 @@
     justify-content: center;
     align-content: center;
     padding: 30px;
+    text-align: center;
 }
 
 #contactos {

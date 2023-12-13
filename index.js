@@ -1,12 +1,10 @@
-
 const menu = document.querySelector('#menu');
-const closeMenu = document.getElementById('closeMenu');
+const navList = document.querySelector('#navList');
 
-//EVENTS
-menu.addEventListener('click', toggleMenu);
-closeMenu.addEventListener('click', toggleMenu);
-
-//MENU TOGGLE
-function toggleMenu() {
-    menu.classList.toggle('openMenu');
-}
+const menuLinks = navList.querySelectorAll('a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.checked = false;
+    navList.classList.remove('openMenu');
+  });
+});
